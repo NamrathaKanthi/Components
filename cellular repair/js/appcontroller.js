@@ -55,6 +55,26 @@
 	});
 })();
 
+(function(){
+	'use strict';
+	angular
+	.module('cellularApp')
+	.component('sixthComponent',{
+		templateUrl : 'html/sixthcomponent.html',
+		controller : 'cellularCtrl'
+	});
+})();
+
+(function(){
+	'use strict';
+	angular
+	.module('cellularApp')
+	.component('seventhComponent',{
+		templateUrl : 'html/seventhcomponent.html',
+		controller : 'cellularCtrl'
+	});
+})();
+
 
 
 (function(){
